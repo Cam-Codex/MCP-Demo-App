@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-primary: #000000;
+  --brand-secondary: #ffffff;
+  --brand-background: #ffffff;
+  --brand-accent: #0000ff;
+}
+
+body {
+  background: var(--brand-background);
+  color: var(--brand-primary);
+}
